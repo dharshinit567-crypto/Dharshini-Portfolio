@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>T.DHARSHINI – Portfolio</title>
+  <meta name="description" content="Portfolio of T Darshini, B.Sc. Computer Science" />
+  <link rel="preload" href="Dharshini.jpg" as="image">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="#" class="brand">T Dharshini</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
+        <ul id="nav-list" class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <img src="Dharshini.jpg" alt="T Dharshini profile photo" class="avatar" />
+        <div>
+          <h1>T DHARSHINI</h1>
+          <p class="subtitle">B.Sc. Computer Science</p>
+          <p class="lede">
+            Motivated and detail-oriented Computer Science student seeking opportunities to learn and contribute in software development. Passionate about coding, problem-solving, and building efficient solutions.
+          </p>
+          <div class="cta-row">
+            <a class="btn" href="#skills">View Skills</a>
+            <a class="btn btn--ghost" href="#resume">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>About</h2>
+        <p>
+          Motivated and detail-oriented Computer Science student seeking opportunities to learn and contribute in software development. Passionate about coding, problem-solving, and building efficient solutions.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="wrap">
+        <h2>Education</h2>
+        <div class="card">
+          <h3>Bharathiyar University – B.Sc. Computer Science</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <ul class="pill-list" role="list">
+          <li>Java</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certificate" class="section">
+      <div class="wrap">
+        <h2>Certificate</h2>
+        <div class="cards">
+          <a class="card link-card" href="NM_Lanquill.jpg" target="_blank" rel="noopener">
+            <div class="link-card__title">English – Lanquill</div>
+            <div class="link-card__meta">PDF</div>
+          </a>
+          <a class="card link-card" href="IBMDesign2025.pdf" target="_blank" rel="noopener">
+            <div class="link-card__title">IBM – Web Development</div>
+            <div class="link-card__meta">PDF</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <div class="wrap">
+        <h2>Resume</h2>
+        <a class="btn" href="Resume Dharshini.pdf" download>Download</a>
+        <a class="btn btn--ghost" href="Resume Dharshini.pdf" target="_blank" rel="noopener">Preview</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>&copy; <span id="year"></span> T Darshini. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
